@@ -8,3 +8,5 @@ const app = new App({
 });
 
 app.msg = 'everybody';
+
+app.$destroy();
