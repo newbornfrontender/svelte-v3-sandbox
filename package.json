@@ -5,6 +5,13 @@
   "repository": "https://github.com/newbornfrontender/svelte-v3-sandbox.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "pretty": "prettier --write **/*.{html,js,json,md}",
+    "clean": "rm -rf public/*{css,js,map}",
+    "serve": "serve public",
+    "start": "rollup -c -w",
+    "build": "yarn clean && rollup -c"
+  },
   "devDependencies": {
     "prettier": "^1.16.0",
     "rollup": "^1.1.2",
