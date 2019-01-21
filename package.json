@@ -1,0 +1,8 @@
+{
+  "name": "svelte-v3-sandbox",
+  "version": "1.0.0",
+  "description": "Svelte v3 Sandbox",
+  "repository": "https://github.com/newbornfrontender/svelte-v3-sandbox.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT"
+}
