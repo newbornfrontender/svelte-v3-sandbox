@@ -1,12 +1,8 @@
 import App from './App.html';
 
-const app = new App({
+new App({
   target: document.querySelector('main'),
   props: {
-    msg: 'world',
+    msg: 'everybody',
   },
 });
-
-app.msg = 'everybody';
-
-app.$destroy();
