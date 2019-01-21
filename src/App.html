@@ -1,2 +1,21 @@
-<p>This is HTML: {html}</p>
-<p>Render as: {@html html}</p>
+<!-- {#if isLogged}
+  <a href="/logout">Log Out</a>
+{/if}
+
+{#if !isLogged}
+  <a href="/login">Log In</a>
+{/if} -->
+
+<!-- {#if isLogged}
+  <a href="/logout">Log Out</a>
+{:else}
+  <a href="/login">Log In</a>
+{/if} -->
+
+{#if x > 10}
+<p>{x} is greater than 10</p>
+{:elseif 5 > x}
+<p>{x} is less than 5</p>
+{:else}
+<p>{x} is between 5 and 10</p>
+{/if}
