@@ -828,10 +828,10 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte@3.0.0-beta.10:
-  version "3.0.0-beta.10"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.0.0-beta.10.tgz#ac21dd794b93d304ed4cdf56ff67e0ee55708d6a"
-  integrity sha512-PDA034OwoMwna9+L99QVN/g9fodfxne3+wWaKph4WmcDDn0cAYRzTgu1h8WfAKK7tyt1iTcOBxKP9y+jonJ0/g==
+svelte@3.0.0-beta.13:
+  version "3.0.0-beta.13"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.0.0-beta.13.tgz#b5ddea8463db7acd4ca229b1dce8f47a1c42fcad"
+  integrity sha512-Ne7WVb7lrTB+p3K7i3oNUxA9fZUuGK2BkyuVkA10cbZhESacjW7zQfJwrytgODCzASPTNQhcyzCdfOKmyx8jsA==
 
 term-size@^1.2.0:
   version "1.2.0"
